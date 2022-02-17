@@ -1,5 +1,8 @@
 package com.moglix.kafkaConsumer.demo.kafkaConsumer.model;
 
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection="kafkaUser")
 public class User {
     private String name;
     private String dept;
